@@ -47,7 +47,6 @@ header .utility{
     width: 100%;
     background: #ebebeb;
 }
-
 header .utility .inner{
     padding : 8px 0px;
 }
@@ -77,7 +76,7 @@ header .utility .util-right .btn-group{
 }
 
 header .utility .util-right .btn-group li{
-    padding : 3px 15px;
+    padding : 3px 15px 6px 15px;
     border : 1px solid #6a6a6a;
     transition : .3s ease;
     margin-right: 10px;

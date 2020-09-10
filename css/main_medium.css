@@ -1,0 +1,45 @@
+/* HEADER */
+header a{
+ color : #b3b4b6
+}
+
+/* HEADER UTIL */
+header .utility{
+    background: #262831;
+}
+
+header .utility .util-right{
+    display: block;
+    width: 100%;
+}
+
+header .utility .util-right .menu-group{
+    float: left;
+    margin-left: 20px;
+}
+
+header .utility .util-right .menu-group li:first-child,
+header .utility .util-right .menu-group li:last-child{
+    display: none;
+}
+
+header .utility .util-right .menu-group li:nth-child(2){
+    display: inline-block;
+    padding : 3px 15px 5px 15px;
+    border : 1px solid #6a6a6a;
+    transition: .3s ease;
+}
+
+header .utility .util-right .menu-group li:nth-child(2):hover{
+    background : royalblue;
+    border-color : royalblue;
+}
+header .utility .util-right .menu-group li:nth-child(2):hover a{
+    color : #fff !important;
+    opacity: 1;
+}
+
+header .utility .util-right .btn-group{
+    float: right;
+    margin-right: 20px;
+}
