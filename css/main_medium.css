@@ -25,7 +25,7 @@ header .utility .util-right .menu-group li:last-child{
 
 header .utility .util-right .menu-group li:nth-child(2){
     display: inline-block;
-    padding : 3px 15px 5px 15px;
+    padding : 3px 15px 6px 15px;
     border : 1px solid #6a6a6a;
     transition: .3s ease;
 }
@@ -42,4 +42,55 @@ header .utility .util-right .menu-group li:nth-child(2):hover a{
 header .utility .util-right .btn-group{
     float: right;
     margin-right: 20px;
+}
+
+/* HEADER GNB */
+header .gnb_menu{
+    box-shadow: none;
+}
+header .gnb_menu .inner{
+    height: auto;
+}
+
+header .gnb_menu img{
+    display: block;
+    float:none;
+    margin : 0 auto;
+}
+
+header .gnb_menu .menu-group{
+    display: none;
+    float:none;
+}
+
+header .gnb_menu .menu-group ul{
+    display: block;
+}
+
+header .gnb_menu .menu-group ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding : 20px 0;
+    border-top : 1px solid rgba(140 , 138, 136, .5);
+    border-bottom : none;
+}
+header .gnb_menu .menu-group ul li:hover{
+    opacity: 1;
+}
+
+header .gnb_menu .menu-group ul li a{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+header .toggle {
+    display: none;
+}
+
+header .toggle.on {
+    display: block;
+}
+
+#toggle-btn {
+    display: block;
 }

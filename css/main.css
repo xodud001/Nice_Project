@@ -108,6 +108,7 @@ header .gnb_menu{
 
 header .gnb_menu .inner{
     height: 74px;
+    position: relative;
 }
 
 header .gnb_menu img{
@@ -149,6 +150,18 @@ header .gnb_menu .menu-group ul li:hover{
 header .gnb_menu .menu-group ul li:hover a{
     opacity: .5;
 }
+
+#toggle-btn{
+    display: none;
+    background: url('../img/toggle-btn.svg');
+    width: 18px;
+    height: 24px;
+    position: absolute;
+    top : 24px;
+    right: 20px;
+    cursor: pointer;
+    text-indent: -9999px;
+  }
 
 /* VISUAL */
 .section--visual{
